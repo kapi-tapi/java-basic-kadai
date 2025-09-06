@@ -1,6 +1,6 @@
-package katai_015;
+package kadai_015;
 
-public class Car_chapter15 {
+public class Car_Chapter15 {
 
 	private int gear  = 1;  // 1速から5速のギアを表す
 	private int speed = 10; // ギアチェンジ後の速度を表す
@@ -15,7 +15,8 @@ public class Car_chapter15 {
 			case 2 -> speed = 20;
 			case 3 -> speed = 30;
 			case 4 -> speed = 40;
-		default  -> speed = 50;
+			case 5 -> speed = 50;
+		default  -> speed = 10;
 		}
 	
 	}
