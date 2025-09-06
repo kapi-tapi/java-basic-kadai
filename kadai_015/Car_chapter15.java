@@ -6,7 +6,7 @@ public class Car_Chapter15 {
 	private int speed = 10; // ギアチェンジ後の速度を表す
 	
 	// メソッド ギアの値により速度を変える
-	public void cahgeGear( int afterGear ) {
+	public void changeGear( int afterGear ) {
 		System.out.println("ギア" + gear + "から" +
 							afterGear + "に切り替えました");
 		gear = afterGear;
